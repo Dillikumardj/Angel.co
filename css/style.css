@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Founders Grotesk';
-    src: url('./assets/fonts/FoundersGroteskWeb-Medium.woff'), url('./assets/fonts/FoundersGroteskWeb-Bold.woff') format('woff');}
+    src: url('../assets/fonts/FoundersGroteskWeb-Medium.woff'), url('../assets/fonts/FoundersGroteskWeb-Bold.woff') format('woff');}
 
 
 .body{
@@ -609,27 +609,30 @@ i {
     padding: 16px;
     border-radius: 4px;
     border: 1px solid #000;
-    width: 1005;
+    /* width: 31%; */
     display: flex;
     flex-direction: row;
     margin-right: 24px;
     margin-bottom: 24px;
+    justify-content: flex-start;
 }
 
+
 .insta,.discord{
-    width: 38%;
+    width: 39%;
 }
 
 .twitch img,.uber img,.discord img,.roblox img,.insta img{
     width: 50px;
     height: 50px;
-    margin-right: 16px;
+    margin-right:16px;
 }
 
 .twitch .large,.uber .large,.discord .large,.roblox .large,.insta .large{
     margin: 0px;
     font-family: Founders Grotesk,sans-serif;
     font-size: 20px;
+    font-weight: 500;
 }
 
 
