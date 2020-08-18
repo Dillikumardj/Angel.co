@@ -6,6 +6,10 @@ body{
 
 
 
+.table-new{
+    display: block;
+    color: #ffffff;
+}
 
 
 
@@ -375,14 +379,17 @@ body{
 }
 
 
-.table .table-inner .table-inner-title{
+.table-inner-title{
     font-size: 14px;
     color: #0f6fff;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.table .table-points{
+
+
+
+.table-points{
     font-size: 14px;
     color: #162040;
     font-family: Arial, Helvetica, sans-serif;
@@ -1068,13 +1075,14 @@ body{
     display: block;
 }
 
-    .table h3{
+    .table-inner-title{
         font-weight: 700;
         font-size: 18px;
         margin:0 ;
         margin-left: 10px;
         text-align: start;
         width: 95%;
+        color: #0f6fff;
     }
 
 
@@ -1085,6 +1093,7 @@ body{
     .table-points{
         margin-left: 35px;
         font-size: 14px;
+        color: #ffffff;
     }
 
     .table .table-points:nth-child(2){
@@ -1113,7 +1122,7 @@ body{
           0 0.75em 0 0 #0f6fff;
       }
 
-      .four-lines-icon-new:before
+     .table .four-lines-icon-new:before
       {
         background: #fff;
         box-shadow: 
@@ -1694,8 +1703,8 @@ body{
 
 
 
-
 .table-new{
     display: block;
-    color: #fff;
+    color: #ffffff;
 }
+
