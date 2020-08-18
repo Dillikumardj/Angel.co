@@ -1,0 +1,2336 @@
+@font-face{
+    font-family: 'Founders Grotesk';
+    src: url('./assets/fonts/FoundersGroteskWeb-Medium.woff'), url('./assets/fonts/FoundersGroteskWeb-Bold.woff') format('woff');}
+
+
+.body{
+    background-color: #fff;
+    font-family: helvetica neue,arial,helvetica,freesans,liberation sans,numbus sans l,sans-serif;
+    font-size: 16px;
+    
+}
+
+
+#main{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* header start */
+
+
+
+.head{
+    background-color: #fff;
+    border-bottom: .0625rem solid rgba(33,37,44,.1);
+}
+
+.head-inner{
+    margin: 0px auto;
+    display: flex;
+    width: 100%;
+    max-width: 1136px;
+    flex-direction: row;
+    height: 56px;
+    /* justify-content: space-between; */
+}
+
+
+.head .icon{
+    margin: 0px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+.head .icon img{
+    width:30px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.navbar{
+    display:flex;
+    width: 100%;
+    margin-left:12px;
+    height: 100%;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    width: 100%;
+  
+}
+
+.navbar ul li{
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.navbar li a{
+    color: #999999;
+    font-size:12px;
+    text-transform: uppercase;
+    padding: 1.3rem 1rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+
+.navbar .navbar-inner{
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 1;
+    left: calc(50% - 100px);
+    background-color: #fff;
+    border-radius: .25rem;
+    box-shadow: 0 1px 0.1875rem #616e80;
+    min-width: 200px;
+    padding: .1875rem 0;
+}
+
+.navbar-inner li{
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.navbar-inner li:nth-last-child(1){
+    border-bottom: none;
+}
+
+.navbar-inner li a{
+    padding: 8px 10px;
+}
+
+.navbar ul li:nth-child(5):hover .navbar-inner{
+    display: flex;
+}
+
+
+.navbar li:hover{
+    background-color:  rgb(236, 236, 236);
+}
+
+.navbar-inner:after{
+    content: '';
+    position: absolute;
+    left:90px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-color: transparent transparent rgba(0,0,0,.15);
+    border-width: 8px;
+    border-bottom: 8px solid #fff;
+}
+
+
+.right-nav{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-left: .0625rem solid rgba(33,37,44,.1);
+}
+
+
+.srch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+    height: 100%;
+}
+
+i {
+    size: 12px;
+    
+}
+
+.fa-search {
+    color: #999;
+}
+
+.fa-search:hover{
+    color: #000000;
+}
+
+.srch input{
+    border: none;
+    width:173px;
+    font-size: 12px;
+    margin-left: 5px;
+    padding: 1px 2px;
+    color: #999999;
+}
+
+.sign{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.sign a{
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    color: blue;
+    font-size: 13px;
+    font-family:Helvetica, sans-serif;
+    margin-left: 10px;
+
+}
+
+.sign a:nth-child(2){
+    padding: 0 0px;
+}
+
+
+
+
+/*      header end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 1 start */
+
+
+
+.sec-1 {
+    width: 100%;
+    max-width: 1136px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+.sec-1-descrip{
+     text-decoration: none;
+     background-color: #385075;
+     margin-top: 24px;
+     padding: 12px 10px 12px 10px;
+     color: #fff;
+     width: 100%;
+     /* height: 45px; */
+     border-radius: 3px;
+     display: block;
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 14px;
+     font-weight: 500;
+}
+
+.sec-1 a:hover{
+    background-color: #192e4d;
+}
+
+
+.angel-list{
+    width: 80%;
+    margin: 0 auto;
+    padding: 88px 0 88px 0;
+}
+
+.angel-list img{
+   width: 150px;
+   height: 28px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4px;
+}
+
+.angel-list h1{
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: "Founders Grotesk",sans-serif;
+    font-size: 70px;
+    text-align: center;
+    line-height: 73px;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+}
+
+.angel-list p{
+    margin:0 60px 0 60px;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+
+.angel-list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 1136px;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+.talent,.venture,.hunt {
+    display:flex;
+    margin: 0 2% 0 2%;
+    height: fit-content;
+    flex-direction: column;
+    width: 30%;
+}
+
+.talent{
+    margin: 0 3% 0 0;
+}
+
+.hunt{
+    margin: 0 0 0 3%;
+}
+
+.talent  div ,.venture div,.hunt div{
+    display: flex;
+}
+
+.talent div h1,.venture div h1,.hunt div h1{
+    width: 80%;
+    font-size: 24px;
+    font-family: 'Founders Grotesk',sans-serif;
+    text-align: start;
+    font-weight: 100;
+    display: flex;
+    margin-top: 16px;
+}
+
+.talent div img,.venture div img,.hunt div img{
+    width: 65px;
+    height: 65px;
+
+
+}
+
+.talent p,.venture p,.hunt p{
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    text-align:start;
+    font-size: 16px;
+}
+
+.talent a,.venture a,.hunt a{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    width: fit-content;
+    display: block;
+    justify-content: start;
+    font-family: Founders Grotesk,sans-serif;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    background: #0f6fff;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.venture a{
+    background-color:#4139A7;
+}
+.hunt a{
+    background-color: #cc4d29;;
+}
+
+.talent a:hover{
+    background-color: #0152cc ;
+}
+
+.venture a:hover{
+    background-color: #100a5c;
+}
+
+.hunt a:hover{
+    background-color: #a52602;
+}
+
+
+
+
+
+/* section 1 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 2 start */
+
+
+
+
+
+
+
+.sec-2{
+    width: 100%;
+    max-width: 1136px;
+    margin: 10% auto 0 auto;
+   
+}
+
+.sec-2-container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    max-width: 1136px;
+    
+}
+
+.sec-2 .left,.sec-2 .right{
+    width: 50%;
+    position: relative;
+}
+.sec-2 .left h1{
+    color: #000000;
+    font-size: 20px;
+    margin: 0px;
+    font-family: "founders Grotesk",sans-serif;
+}
+
+.sec-2 .left h2{
+    color: #000000;
+    font-size: 70px;
+    line-height: 80px;
+    margin: 0px;
+    font-family: 'Founders Grotesk',sans-serif;
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.sec-2 .right img{
+    width: 90%;
+    margin: 5% 0% 5% 10%;
+}
+
+
+.sec-2 .left p{
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.inner-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.inner-sec .inner-sec-container{
+    width: 45%;
+    
+}
+
+.inner-sec .inner-sec-container:nth-child(1)
+{
+    margin-right: 20px;
+}
+
+.inner-sec .inner-sec-container:nth-child(2)
+{
+    margin-left: 20px;
+}
+
+
+.inner-sec .inner-sec-container h1{
+    font-size: 20px;
+    font-family: "founders grotesk",sans-serif;
+}
+
+.inner-sec .inner-sec-container p{
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+
+.sec-2-container .left .btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.start-job{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Founders Grotesk,sans-serif;
+    line-height: 24px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    background: #0f6fff;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.post-job{
+    margin: 3% 0 3% 5%;
+    color: #0a6cff; 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.start-job:hover{
+    background-color:#0152cc;
+}
+
+.post-job:hover{
+    text-decoration: underline;
+}
+
+/* section 2 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 3 start */
+
+
+
+
+
+
+
+.sec-3{
+    width: 100%;
+    max-width: 1136px;
+    margin: 5% auto 0 auto;
+    padding: 0 32px;
+}
+
+.sec-3 h1{
+    font-family: "Founders Grotesk",sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 0;
+    min-height: 0;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+.twitch,.discord,.uber,.roblox,.insta{
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    width: 1005;
+    display: flex;
+    flex-direction: row;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.insta,.discord{
+    width: 38%;
+}
+
+.twitch img,.uber img,.discord img,.roblox img,.insta img{
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+}
+
+.twitch .large,.uber .large,.discord .large,.roblox .large,.insta .large{
+    margin: 0px;
+    font-family: Founders Grotesk,sans-serif;
+    font-size: 20px;
+}
+
+
+.twitch .small,.uber .small,.discord .small,.roblox .small,.insta .small{
+    margin: 0px;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 14px;
+}
+
+
+.sec-3 a{
+    display: block;
+   color:#0a6cff;
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.sec-3 a:hover{
+    text-decoration: underline;
+}
+
+.social-span{
+    text-decoration:underline;
+}
+
+
+
+
+
+
+/* section 3 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 4 start */
+
+
+
+
+
+.sec-4{
+    width: 100%;
+    max-width: 1136px;
+    margin: 10% auto 10% auto;
+    
+}
+
+.sec-4-container{
+    width: 100%;
+    max-width: 1136px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.sec-4 .left,.sec-4 .right{
+    position: relative;
+    width: 50%;
+}
+.sec-4 .left h1{
+    color: #000000;
+    font-size: 20px ;
+    font-family: "founders Grotesk",sans-serif;
+}
+
+.sec-4 .left h2{
+    color: #000000;
+    font-size: 70px;
+    font-family: "founders Grotesk",sans-serif;
+    margin-bottom: 40px;
+    font-weight: 800;
+    margin-top: 0px;
+    line-height: 80px;
+}
+
+.sec-4 .right img{
+    width: 70%;
+    margin: 35% 0 0 30%;
+}
+
+
+.sec-4 .left p{
+    font-size: 24px;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    line-height: 35px;
+}
+
+
+.sec-4 .inner-sec{
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-4 .inner-sec .inner-sec-container{
+    width: 50%;
+}
+.sec-4 .inner-sec .inner-sec-container:nth-child(1)
+{
+    margin-right: 30px;
+}
+
+
+.sec-4 .inner-sec .inner-sec-container h1{
+    font-size: 20px;
+    font-family: founders grotesk,sans-serif;
+}
+
+.sec-4 .inner-sec .inner-sec-container p{
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    
+
+}
+
+
+.sec-4 .btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 55px;
+}
+
+.investor{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Founders Grotesk,sans-serif;
+    line-height: 24px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    background: #4139A7;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fund{
+    margin: 3% 0 3% 5%;
+    color: #4139A7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.investor:hover{
+    background-color: #140f5e;
+}
+
+.fund:hover{
+    text-decoration: underline;
+}
+/* section 4 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 5 start */
+
+
+.sec-5{
+    width: 100%;
+    max-width: 1136px;
+    margin: 5% auto 0 auto;
+
+}
+
+.sec-5-main{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.sec-5-main h1{
+    color: #000000;
+    font-size: 32px;
+    width: 100%;
+    font-family: Founders Grotesk,sans-serif;
+}
+.sec-5-main a{
+    text-decoration: none;
+    color: #0a6cff;
+    display: block;
+    text-align: end;
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    font-size: 16px;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+
+.sec-5-main a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 32px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.careers,.hiring,.future{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 64px;
+}
+
+.future{
+    margin-right: 0%;
+}
+
+.careers img,.hiring img ,.future img{
+    width:100%;
+}
+
+.careers .blog-small,.hiring .blog-small, .future .blog-small{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    
+    
+}
+
+.careers .blog-big,.hiring .blog-big, .future .blog-big{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 8px;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    
+    
+}
+
+
+.careers p a,.hiring p a,.future p a,.careers h1 a,.hiring h1 a, .future h1 a{
+    text-decoration: none;
+}
+
+.careers p a:hover,.hiring p a:hover,.future p a:hover,
+.careers h1 a:hover,.hiring h1 a:hover, .future h1 a:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.careers h1,.hiring h1, .future h1
+{
+    font-family: Founders Grotesk,sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* section 5 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section black 1 start */
+
+
+
+
+.sec-black-1{
+    margin-top:18%;
+    background-color: #000000;
+    width: 100%;
+    padding: 5% 5% 10% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.free-job img{
+    margin: 0 auto;
+    color: transparent;
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    top: -160px;
+    left: 43%;
+}
+
+.free-job{
+    display: block;
+    position: relative;
+}
+
+.free-job-title{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display:block;
+    font-size: 260px;
+    color: #ffffff;
+    font-family: Founders Grotesk,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 340px;
+   
+}
+
+.free-job-icon{
+    font-size: 50px;
+    position: absolute;
+    top:-100px;
+}
+
+
+.free-job-content{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.post-jobs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    max-width: 1136px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-jobs .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post-jobs .left-content{
+    display: inline-flex;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.post-jobs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top:18px;
+}
+
+
+.high-quality,.free-tools{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 45%;
+}
+
+
+.high-quality h3{
+    margin: 0 0 8px 0;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Founders Grotesk,sans-serif;
+    display: inline-block;
+    
+}
+
+.high-quality p{
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.free-tools h3{
+  margin: 0 0 8px 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Founders Grotesk,sans-serif;
+}
+
+.free-tools p{
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.post-jobs .right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0% 2% 0% 7%;
+    margin: 20px 0 0 0px;
+    justify-content: space-around;
+}
+
+.post-jobs .right a{
+    margin: 0 16px 30px 16px;
+}
+
+.post-jobs .right a img{
+    width: 70px;
+    height: 70px;
+}
+
+.post-jobs .right a p{
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    font-family: -apple-system,blinkmacsystemfont,Segoe UI,helvetica,arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    
+}
+
+
+.sec-black-1-btn{
+
+    display: inline-block;
+    width: fit-content;
+    margin-left: 2.5%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Founders Grotesk',sans-serif;
+    line-height: 24px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    background: #0f6fff;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.sec-black-1-btn:hover{
+    background-color:#0152cc;
+}
+
+
+/* section black 1 end */
+
+
+
+
+
+
+
+
+
+/* section black 2 start */
+
+
+
+
+.sec-black-2{
+    padding: 0 5% 8% 5%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+
+.black-2-img1{
+    position: relative;
+    bottom: 80px;
+    width: 130px;
+    height: 170px;
+}
+
+.black-2-img2{
+   color: transparent;
+   filter: invert(100);
+   width: 200px;
+   height: 50px;
+   position: relative;
+   bottom: 50px;
+}
+.black-2-title{
+    color: #ffffff;
+    font-size: 48px;
+    font-family: Founders Grotesk,sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.black-2-btn{
+    display: block;
+    color: #ffffff;
+    background-color: #cc4d29;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 30px;
+    font-family: Founders Grotesk,sans-serif;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+
+.black-2-btn:hover{
+    background-color: #a52602;
+}
+
+
+/* section black 2 end */
+
+
+
+
+
+
+
+
+
+/* footer start */
+
+
+
+footer{
+    padding: 40px;
+    background-color: #000000;
+}
+
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    max-width: 1136px;
+}
+
+
+.footer-1,.footer-2,.footer-3,.footer-4,.footer-5,.footer-6,.footer-7,.footer-8{
+    width: 224px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px 0 0;
+    margin-bottom: 64px;
+}
+
+
+.footer-1 a h3,.footer-2 a h3,.footer-3 a h3,.footer-4 a h3,.footer-5 a h3,.footer-6 a h3,.footer-7 a h3,.footer-8 a h3,.footer-9 a h3{
+   font-size: 20px;
+   margin: 0;
+   margin-bottom: 24px;
+   font-family: Founders Grotesk,sans-serif;
+   font-weight: 600;
+   letter-spacing: 0.5px;
+}
+
+.footer-1 a,.footer-2 a,.footer-3 a,.footer-4 a,.footer-5 a,.footer-6 a,.footer-7 a,.footer-8 a,.footer-9 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    font-family: Founders Grotesk,sans-serif;
+    
+    
+}
+
+.footer-1 a:nth-child(1),.footer-2 a:nth-child(1),.footer-3 a:nth-child(1),.footer-4 a:nth-child(1),
+.footer-5 a:nth-child(1),.footer-6 a:nth-child(1),.footer-7 a:nth-child(1),.footer-8 a:nth-child(1){
+    margin-bottom: 8px;
+}
+
+
+
+.footer-4,.footer-8{
+    width: 280px;
+}
+
+
+
+.footer-9{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    justify-content: flex-start;
+}
+
+.footer-9 img{
+    width: 25px;
+    height: 36px;
+    margin-right: 5px;
+}
+
+.footer-9 a{
+    padding: 0px 0;
+    margin: 11px 16px 11px 0px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+
+.footer-9 a:nth-child(1){
+    margin: 0px;
+}
+
+.footer-9 a:nth-child(2){
+    margin-left: 20px;
+}
+
+.footer-1 a:hover,.footer-2 a:hover,.footer-3 a:hover,.footer-4 a:hover,.footer-5 a:hover,.footer-6 a:hover,.footer-7 a:hover,.footer-8 a:hover,.footer-9 a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+/* Responsive start  width 1135px */
+
+
+
+
+
+
+@media(max-width:1135px)
+{
+
+
+
+
+/* header */
+
+    .head{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .head .icon{
+        margin: 0px;
+    }
+
+
+    .navbar ul li a{
+    }
+
+    .right-nav{
+        border: none;
+        margin: 0 10px;
+    }
+
+    .srch{
+        display: none;
+    }
+
+     .sign a:nth-child(1){
+         margin: 0;
+     }
+
+
+/* header end */
+
+
+
+
+
+
+
+/* section 1 start */
+    
+     .sec-1{
+         margin-top: 0px;
+         padding: 0 32px;
+     }
+     
+     .sec-1-descrip{
+         padding: 9px;
+         font-size: 12px;
+     }
+
+
+     .angel-list{
+         margin: 0px auto;
+         width: 100%;
+         padding: 88px 0px;
+     }
+
+     .angel-list img{
+         width:125px;
+         height: 23px;
+     }
+
+     .angel-list h1{
+         font-size: 38px;
+         font-weight: 900;
+         line-height: 46px;
+     }
+
+     .angel-list p{
+         margin: 0 17%;
+         font-size: 20px;
+     }
+
+
+
+
+     .angel-list-container{
+         width: 100%;
+     }
+
+     .talent,.venture,.hunt{
+         margin: 0;
+         width: 30%;
+     }
+
+     .venture,.hunt{
+         margin-left: 60px;
+     }
+
+     .talent a,.venture a,.hunt a{
+         font-size: 16px;
+     }
+
+
+
+/* section 1 end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 2 start */
+
+    .sec-2{
+        margin-top: 13%;
+        padding: 0 32px;
+        
+    }
+
+    .sec-2 .left h2{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .sec-2 .left p{
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+
+
+    .inner-sec{
+        margin-top: 42px;
+        margin-bottom: 40px;
+    }
+
+    .inner-sec .inner-sec-container {
+        margin-bottom: 30px;
+    }
+
+    .inner-sec .inner-sec-container h1{
+        margin-bottom: 10px;
+    }
+
+    .inner-sec .inner-sec-container p{
+        font-size: 16px;
+    }
+
+
+    .sec-2 .right div{    
+        padding-right: 32px;
+        position: absolute;
+        right: 0;
+        width: 50%;
+        height: auto;
+    }
+
+    .sec-2 .right img{
+        float: right;
+    }
+
+
+
+
+/* section 2 end */
+
+
+
+
+
+
+
+
+
+
+
+/* section 3 start */
+    
+
+    .sec-3
+    {
+        margin-top: 9%;
+    }
+
+    .inner-sec{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .twitch,.uber,.roblox{
+        width: 40%;
+    }
+    .discord{
+        width: 50%;
+    }
+
+    .insta{
+        width: 50%;
+    }
+
+/* section 3 end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section black 1 start */
+    
+
+    .sec-black-1{
+        padding:72px 72px 144px;
+        margin-top: 17%;
+    }
+
+    .free-job-title{
+        font-size: 80px;
+        letter-spacing: 1px;
+        line-height: 90px;
+    }
+
+    .free-job-icon{
+        top: -40px;
+    }
+
+    .free-job img{
+        top: -165px;
+    }
+
+
+    .post-jobs{
+        flex-direction: column-reverse;
+        margin-left: 0;
+    }
+
+    .post-jobs .right,.post-jobs .left{
+        width: 100%;
+        padding: 0;
+    }
+
+    .post-jobs .right{
+        margin: 20px 16px 16px;
+        justify-content: center;
+    }
+
+  
+     .post-jobs .left-content{
+         margin-top: 0;
+         font-size: 20px;
+     }
+
+
+     .post-jobs-container{
+         flex-direction: column;
+     }
+
+     .high-quality,.free-tools{
+         flex-direction: column;
+     }
+
+     .free-tools{
+         margin-top: 30px;
+         margin-bottom: 50px;
+     }
+
+     .high-quality h3,.free-tools h3{
+         margin: 0;
+     }
+
+
+
+
+     .sec-black-1-btn{
+         margin-left: 0;
+         flex-wrap: wrap;
+         width: fit-content;
+     }
+
+
+/* section black 1 end */
+
+
+
+
+
+
+
+
+
+
+
+/* section 4 start */
+
+
+
+    .sec-4{
+        padding: 0 32px;
+        margin: 12% 0% 12% 0%;
+        display: flex;
+        height: fit-content;
+    }
+
+
+    .sec-4 .left h2{
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+ 
+    .sec-4 .left p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .sec-4 .inner-sec{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .sec-4 .right{
+        width: 50%;
+    }
+
+    .sec-4 .right img{
+        margin: 20% 10%;
+        width: 80%;
+    }
+
+    .inner-sec .inner-sec-container:nth-child(2){
+        margin: 0;
+        width: 100%;
+    }
+
+    .inner-sec .inner-sec-container:nth-child(1){
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sec-4 .left .btn{
+        flex-direction: column;
+    }
+
+    .investor{
+        margin-top: 15px;
+    }
+
+    .fund{
+        margin-top: 25px;
+        margin-left: 0;
+    }
+
+
+
+/* section 4 end */
+   
+
+
+
+
+
+
+
+
+
+/* section black 2 start */
+
+
+
+
+    .black-2-img1{
+        width: 120px;
+        height: 149px;
+    }
+
+
+
+    .sec-black-2 .black-2-title{
+        font-size: 32px;
+    }
+
+
+/* section black 2 end */
+
+
+
+
+
+
+
+
+
+
+/* section 5 start */
+
+
+    .sec-5{
+        padding: 0 32px;
+    }
+
+
+
+
+     .sec-5 .sec-5-main h1{
+         font-size: 32px;
+     }
+
+     .sec-5 .sec-5-main a{
+         margin-top:15px;
+     }
+
+
+     .careers,.hiring,.future{
+         margin: 0;
+         padding: 0;
+         width: 30%;
+     }
+
+
+/* section 5 end */
+ 
+
+
+
+
+
+
+/* footer start */
+
+
+
+
+
+     .footer-1 a,.footer-2 a,.footer-3 a,.footer-4 a,.footer-5 a,
+     .footer-6 a,.footer-7 a,.footer-8 a,.footer-9 a{
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+
+     .footer-1 a h3,.footer-2 a h3,.footer-3 a h3,.footer-4 a h3,.footer-5 a h3,
+     .footer-6 a h3,.footer-7 a h3,.footer-8 a h3{
+         font-size: 24px;
+     }
+
+
+     .footer-1{
+         width: 17%;
+         margin-right: 34px;
+         padding: 0;
+     }
+
+     .footer-2,.footer-3{
+         width: 23%;
+         padding: 0;
+         margin-right: 30px;
+     }
+
+     .footer-4{
+         width: 28%;
+         padding: 0;
+     }
+
+     .footer-5{
+         width: 21%;
+         margin-right: 34px;
+     }
+
+     .footer-6{
+         width: 22%;
+         margin-right: 34px;
+     }
+
+     .footer-7{
+         width: 23%;
+         margin-right: 34px;
+     }
+
+     .footer-9{
+         width: 100%;
+     }
+
+
+    /* footer end */
+
+    
+}
+
+
+/* Responsive end width 1135px */
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive start width 870px */
+
+
+
+
+
+@media(max-width:870px){
+
+    .social{
+        justify-content: space-around;
+    }
+    .twitch   {
+        width: 49%;
+        margin-right: 0;
+    }
+    .uber{
+        width: 49%;
+        margin-right: 0;
+    }
+
+    .roblox{
+        width: 50%;
+        margin-right: 0;
+    }
+    .discord{
+        width: 60%;
+        margin-right: 0;
+    }
+    .insta{
+        width: 70%;
+        margin-right: 0;
+    }
+}
+
+
+
+/* Responsive end width 870px */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive start width 720px */
+
+
+
+
+@media(max-width:719px)
+{
+
+
+/* header start */
+
+    .body{
+        overflow: hidden;
+    }
+
+    .head-inner{
+        width: 100%;
+        height: 42px;
+    }
+
+     .head .icon img{
+         margin: 0;
+         width: 23px;
+         height: 23px;
+     }
+
+     .head .head-inner .icon{
+        padding: 10px 0;
+        overflow: hidden;
+
+     }
+
+     
+    .navbar ul li a{
+        padding: 5px 10px 0px 10px ;
+        flex-wrap: wrap;
+    }
+
+    
+   .right-nav {
+       border: none;
+       width: 30%;
+       margin: 0px;
+       margin-right: 10px;
+   }
+
+   .right-nav .srch{
+       width: 0;
+       display: none;
+   }
+
+    .sign{
+        margin-left: 5%;
+    }
+    .sign a{
+        font-size: 14px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+
+
+    /* header end */
+
+
+
+
+
+
+
+
+    /* section 1 start */
+
+
+    .sec-1 a{
+        font-size: 12px;
+    }
+
+
+    .angel-list{
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .angel-list-container{
+        flex-direction: column;
+    }
+
+    .angel-list img{
+        width:80px;
+        height:16px ;
+        margin-bottom: 10px;
+    }
+
+    .angel-list h1{
+        font-size: 40px;
+        line-height: 1.05;
+        letter-spacing: 1px;
+        text-align: center;
+        font-weight: 900;
+    }
+
+    .angel-list p{
+        display: none;
+    }
+   
+
+    .angel-list-container .talent,
+    .angel-list-container .venture,
+    .angel-list-container .hunt{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+       margin-top: 15px;
+    }
+
+    .angel-list-container .talent .talent-inner,
+    .angel-list-container .venture .venture-inner,
+    .angel-list-container .hunt .hunt-inner{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+
+ .talent-inner ,.venture-inner ,.hunt-inner{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        
+    }
+
+    .talent .talent-inner h1,.venture .venture-inner h1,.hunt .hunt-inner h1{
+        width: 100%;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .talent p,.venture p,.hunt p
+    {
+        text-align: center;
+    }
+    
+    .talent a,.venture a,.hunt a{
+        margin: 0 auto;
+        font-size: 20px;
+    } 
+
+
+
+/* section 1 end */
+
+
+
+
+
+
+
+
+/* section 2 start */
+
+
+
+
+    .sec-2 {
+        flex-direction: row;
+        position: relative;
+    }
+
+    .sec-2 .left{
+        width: 100%;
+    }
+
+   
+    .sec-2 .right{
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .sec-2 .right img{
+        margin: 0;
+        position: relative;
+        top: -50px;
+        right: -80px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .btn{
+        flex-direction: row;
+    }
+
+
+
+
+
+
+/* section 2 end */
+
+
+
+
+
+
+
+
+/* section 3 start */
+    
+    .sec-3{
+        margin-top: 15%;
+        margin-bottom: 28%;
+    }
+
+    .sec-3 .social{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .twitch,.discord,.uber,.roblox,.insta{
+        width: 100%;
+    }
+
+
+
+    /* section 3 end */
+
+
+
+
+
+
+
+
+
+
+
+    /* section 4 start */
+
+
+    .sec-4{
+        
+    }
+
+    .sec-4 .left{
+        width: 100%;
+        
+    }
+
+    .sec-4 .left .inner-sec .inner-sec-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sec-4-container .left h2{
+        width: 80%;
+    }
+
+    .inner-sec-container h1{
+        margin: 0;
+    }
+
+    .sec-4-container .right{
+        position: absolute;
+        width: 30%;
+        height: auto;
+        top: 0;
+        right: 0px;
+        
+    }
+
+    .sec-4-container .right img{
+        position: relative;
+        right: -65px;
+        top: -30px;
+        margin: 0;
+    }
+
+
+    .sec-4 .btn{
+        flex-direction: column;
+    }
+
+    .btn .fund{
+        margin-left: 0px;
+    }
+
+
+
+
+/* section 4 end */
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 5 start */
+
+    .sec-5 .content{
+        flex-direction: column;
+    }
+
+    .careers,.hiring,.future{
+        width: 100%;
+    }
+
+    .careers img,.hiring img,.future img{
+       width: 100%;
+       height: 100%;
+    }
+
+    .sec-5 .sec-5-main a{
+        margin: 0;
+        margin-top: 40px;
+   }
+
+   .content .careers,.content .hiring,.content .future{
+       margin-top: 50px;
+   }
+
+
+
+/* section 5 end */
+
+
+
+
+
+
+
+
+
+
+
+/* section black 1 start */
+
+    .sec-black-1{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 32px;
+        padding-bottom:10% ;
+    }
+
+
+
+
+    .free-job{
+        width: 100%;
+    }
+
+    .free-job img{
+        top: -95px;
+        left: 40%;
+    
+    }
+
+    .free-job h1{
+        margin-top: 80px;
+    }
+
+    .post-jobs{
+        margin-top: 5%;
+    }
+
+    .post-jobs .right:nth-last-child(1),.post-jobs .right:nth-last-child(2){
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .high-quality,.free-tools{
+        flex-direction: column;
+    }
+
+    .free-job-icon{
+        margin-top: 80px;
+        top: 0;
+    }
+
+    .free-job-content{
+        font-size: 22px;
+    }
+
+    .sec-black-1-btn{
+        display: flex;
+    }
+
+
+/* section black 1 end */
+
+
+
+
+
+
+
+
+
+
+
+    /* footer start */
+   
+
+    .footer-1,.footer-5{
+        width: 30%;
+    }
+
+    .footer-2,.footer-3,.footer-5{
+        width: 35%;
+    }
+
+    .footer-6,.footer-7{
+        width: 40%;
+    }
+
+    .footer-4,.footer-8{
+        width: 50%;
+    }
+
+    /* footer end */
+
+
+
+
+}
+
+
+
+/* Responsive end with 720px */
